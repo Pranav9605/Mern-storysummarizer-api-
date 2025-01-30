@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+transformers
+torch
+spacy
+numpy
+scikit-learn
+requests
+streamlit
+python -m spacy download en_core_web_sm
