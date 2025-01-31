@@ -94,3 +94,4 @@ def summarize(request: SummarizationRequest):
         return {"error": f"Unsupported method: {method}"}
 
     return {"summary": summary}
+app.run_server(debug=True, port=8050, host='0.0.0.0')
